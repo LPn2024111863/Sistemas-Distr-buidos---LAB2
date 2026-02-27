@@ -2,8 +2,6 @@ from servidor.operacoes import dividir, somar, subtrair, multiplicar, raiz_quadr
 from typing import Union
 
 class Maquina:
-    def __init__(self):
-        pass
 
     def operar(self, operador:str, x:float,y:float )-> Union[float,str, None]:
         """

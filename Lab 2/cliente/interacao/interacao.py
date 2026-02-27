@@ -12,7 +12,7 @@ class Interacao:
         O metodo no final faz "print" do valor ou erro associados à efetuação
         da operação
         """
-        print("Qual é o cálculo que quer efetuar? x + - / sqrt")
+        print("Qual é o cálculo que quer efetuar? * + - / sqrt")
         res:str = input()
         x:float = float(input("x= "))
         y:float = float(input("y= "))
