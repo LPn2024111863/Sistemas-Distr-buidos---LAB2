@@ -1,4 +1,4 @@
-from cliente.interacao import interacao
+from servidor.gestor import maquina
 
 def main():
 	"""
@@ -9,8 +9,8 @@ def main():
 	efetuará a operação necessária, caso esta seja válida.
 
 	"""
-	i:object = interacao.Interacao()
-	i.execute()
+	m:object = maquina.Maquina()
+	m.execute()
 
 if __name__ == '__main__':
 	main()
