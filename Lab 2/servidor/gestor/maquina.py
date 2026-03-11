@@ -11,8 +11,8 @@ SYM_OP = "sym      "
 SUB_OP = "sub      "
 BYE_OP = "bye      "
 END_OP = "stop     "
-PORT = 35000
-SERVER_ADDRESS = "localhost"
+PORT = 35001
+SERVER_ADDRESS = "192.168.56.1"
 
 # ---------------------- interaction with sockets ------------------------------
 def receive_int(connection, n_bytes: int) -> int:
@@ -72,7 +72,7 @@ class Maquina:
         self.BYE_OP = "bye      "
         self.END_OP = "stop     "
         self.PORT = 35001
-        self.SERVER_ADDRESS = "localhost"
+        self.SERVER_ADDRESS = "10.1.58.252"
 
     def execute(self)-> Union[float,str, None]:
         """

@@ -11,7 +11,7 @@ BYE_OP = "bye      "
 SUB_OP = "sub      "
 END_OP = "stop     "
 PORT = 35000
-SERVER_ADDRESS = "localhost"
+SERVER_ADDRESS = "31.22.145.201"
 
 # ----- enviar e receber strings ----- #
 def receive_str(connect, n_bytes: int) -> str:
@@ -61,7 +61,7 @@ class Interacao:
         self.END_OP = "stop     "
         self.res = 0
         self.PORT = 35001
-        self.SERVER_ADDRESS = "localhost"
+        self.SERVER_ADDRESS = "10.1.58.252"
 
     def execute(self):
         # Socket & ligação
